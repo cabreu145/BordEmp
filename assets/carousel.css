@@ -1,0 +1,228 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+  
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 2rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* Cuando la pantalla es mayor a 900px */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .svg {
+    width: 100px;
+    height: auto;
+}
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .svg {
+    width: 100px;
+    height: auto;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .svg {
+    width: 100px;
+    height: auto;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .svg {
+    width: 190px;
+    height: auto;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .svg {
+    width: 190px;
+    height: auto;
+}
+}
+  
+  /* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+  @media only screen and (max-width : 900px) {
+    .svg {
+      width: 100px;
+      height: auto;
+  }
+ 
+  }
+  
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+
+}
+
+/*Iphones*/
+
+/*iPhone 14*/
+@media only screen
+and (width: 390px) 
+and (device-height: 844px)
+and (-webkit-device-pixel-ratio: 3) { 
+  .svg {
+    width: 100px;
+    height: auto;
+}
+}
+
+/*iPhone 14 Pro*/
+@media only screen
+    and (width: 393px) 
+    and (device-height: 852px)
+    and (-webkit-device-pixel-ratio: 3) {
+      .svg {
+        width: 100px;
+        height: auto;
+    }
+     }
+
+/*iPhone 14 Pro Max*/
+@media only screen
+    and (device-width: 430px) 
+    and (device-height: 932px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      .svg {
+        width: 100px;
+        height: auto;
+    }
+     }
+
+
+/*Iphones*/
+.menu-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/524/524614.png'); /* Reemplaza 'ruta/al/icono.png' con la ruta de tu imagen de ícono */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+ 
+}
+.menu-icon2 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('https://res.cloudinary.com/dd0zhcr3s/image/upload/v1680370223/web/bordadosEmp/rosado_e5q8nq.png'); /* Reemplaza 'ruta/al/icono.png' con la ruta de tu imagen de ícono */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+ 
+}
+.menu-icon3 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('https://res.cloudinary.com/dd0zhcr3s/image/upload/v1680370408/web/bordadosEmp/amarillop_qwvoym.png'); /* Reemplaza 'ruta/al/icono.png' con la ruta de tu imagen de ícono */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+ 
+}
+
+.whats {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('https://res.cloudinary.com/dd0zhcr3s/image/upload/v1680379359/whatsapp_ygdlh9.png'); /* Reemplaza 'ruta/al/icono.png' con la ruta de tu imagen de ícono */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+
+  background-color: #312783 !important;
+  border-color:#312783!important;
+}
+
+.logo {
+  display: inline-block;
+  width: 250px;
+  height: 100px;
+  background-image: url('https://res.cloudinary.com/dd0zhcr3s/image/upload/v1680382069/output-onlinegiftools_xy35oq.gif'); /* Reemplaza 'ruta/al/icono.png' con la ruta de tu imagen de ícono */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}

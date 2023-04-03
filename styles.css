@@ -1,0 +1,30 @@
+.menu-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/524/524614.png'); /* Reemplaza 'ruta/al/icono.png' con la ruta de tu imagen de ícono */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+ 
+}
+.menu-icon2 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('https://res.cloudinary.com/dd0zhcr3s/image/upload/v1680370223/web/bordadosEmp/rosado_e5q8nq.png'); /* Reemplaza 'ruta/al/icono.png' con la ruta de tu imagen de ícono */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+ 
+}
+.menu-icon3 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url('https://res.cloudinary.com/dd0zhcr3s/image/upload/v1680370408/web/bordadosEmp/amarillop_qwvoym.png'); /* Reemplaza 'ruta/al/icono.png' con la ruta de tu imagen de ícono */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+ 
+}
